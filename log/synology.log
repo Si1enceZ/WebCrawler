@@ -1,0 +1,33 @@
+2022/03/17 11:47:51 - DEBUG - 36 - create_dir - Succeed in creating directory: ../data/synology
+2022/03/17 11:47:55 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): archive.synology.cn:443
+2022/03/17 11:47:56 - DEBUG - 456 - _make_request - https://archive.synology.cn:443 "GET /download/Os HTTP/1.1" 200 None
+2022/03/17 11:50:13 - DEBUG - 38 - create_dir - Directory ../data/synology already exists!
+2022/03/17 11:50:16 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): archive.synology.cn:443
+2022/03/17 11:50:17 - DEBUG - 456 - _make_request - https://archive.synology.cn:443 "GET /download/Os HTTP/1.1" 200 None
+2022/03/17 11:50:47 - DEBUG - 38 - create_dir - Directory ../data/synology already exists!
+2022/03/17 11:50:51 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): archive.synology.cn:443
+2022/03/17 11:50:52 - DEBUG - 456 - _make_request - https://archive.synology.cn:443 "GET /download/Os HTTP/1.1" 200 None
+2022/03/17 11:50:57 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): archive.synology.cn:443
+2022/03/17 11:50:59 - DEBUG - 456 - _make_request - https://archive.synology.cn:443 "GET /download/Os/DSM HTTP/1.1" 200 None
+2022/03/17 11:51:32 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): archive.synology.cn:443
+2022/03/17 11:51:33 - DEBUG - 456 - _make_request - https://archive.synology.cn:443 "GET /download/Os/DSM/7.0.1-42218-3 HTTP/1.1" 200 None
+2022/03/17 11:51:42 - ERROR - 90 - get_bios - In Function: get_bios(/download)
+2022/03/17 11:51:42 - ERROR - 91 - get_bios - Invalid URL '/download': No scheme supplied. Perhaps you meant http:///download?
+2022/03/17 11:51:54 - ERROR - 151 - Download - In function Download
+2022/03/17 11:51:55 - ERROR - 152 - Download - 'NoneType' object has no attribute 'headers'
+2022/03/17 11:51:58 - ERROR - 90 - get_bios - In Function: get_bios(/download/Os)
+2022/03/17 11:51:58 - ERROR - 91 - get_bios - Invalid URL '/download/Os': No scheme supplied. Perhaps you meant http:///download/Os?
+2022/03/17 11:51:58 - ERROR - 151 - Download - In function Download
+2022/03/17 11:51:59 - ERROR - 152 - Download - 'NoneType' object has no attribute 'headers'
+2022/03/17 11:52:00 - ERROR - 90 - get_bios - In Function: get_bios(/download/Os/DSM)
+2022/03/17 11:52:00 - ERROR - 91 - get_bios - Invalid URL '/download/Os/DSM': No scheme supplied. Perhaps you meant http:///download/Os/DSM?
+2022/03/17 11:52:01 - ERROR - 151 - Download - In function Download
+2022/03/17 11:52:01 - ERROR - 152 - Download - 'NoneType' object has no attribute 'headers'
+2022/03/17 11:52:03 - ERROR - 90 - get_bios - In Function: get_bios(/download/Os/DSM)
+2022/03/17 11:52:03 - ERROR - 91 - get_bios - Invalid URL '/download/Os/DSM': No scheme supplied. Perhaps you meant http:///download/Os/DSM?
+2022/03/17 11:52:03 - ERROR - 151 - Download - In function Download
+2022/03/17 11:52:03 - ERROR - 152 - Download - 'NoneType' object has no attribute 'headers'
+2022/03/17 11:52:05 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): cndl.synology.cn:443
+2022/03/17 11:52:06 - DEBUG - 456 - _make_request - https://cndl.synology.cn:443 "GET /download/DSM/criticalupdate/update_pack/42218-3/synology_alpine4k_ds215%2B.pat HTTP/1.1" 200 13488664
+2022/03/17 11:52:06 - DEBUG - 123 - save - Saving File synology_alpine4k_ds215%2B.pat..
+2022/03/17 11:52:10 - DEBUG - 129 - save - Succeed in saving file synology_alpine4k_ds215%2B.pat

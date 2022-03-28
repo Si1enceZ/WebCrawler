@@ -1,0 +1,379 @@
+2022/03/17 23:36:02 - DEBUG - 35 - create_dir - Succeed in creating directory: ../data/ASUS
+2022/03/17 23:36:02 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/17 23:36:03 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=nas&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wired-networking&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=1&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 5568
+2022/03/17 23:36:03 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/17 23:36:04 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=AS6602T&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/17 23:38:37 - DEBUG - 37 - create_dir - Directory ../data/ASUS already exists!
+2022/03/17 23:38:37 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/17 23:38:38 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=nas&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wired-networking&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=1&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 5568
+2022/03/17 23:38:38 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/17 23:38:39 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=AS6602T&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/17 23:38:39 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/17 23:38:39 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/17 23:38:39 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/17 23:38:40 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=AS6604T&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/17 23:38:40 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/17 23:38:40 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/17 23:38:40 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/17 23:38:41 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=PCE-C2500&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/17 23:38:41 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/17 23:38:41 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/17 23:38:41 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/17 23:38:42 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=XG-U2008&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/17 23:38:42 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/17 23:38:42 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/17 23:38:42 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/17 23:38:43 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=GX-U1081&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/17 23:38:43 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/17 23:38:43 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/17 23:38:43 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/17 23:38:44 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=XG-C100C&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 684
+2022/03/17 23:38:44 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): dlsvr04.asus.com.cn:443
+2022/03/17 23:38:44 - DEBUG - 456 - _make_request - https://dlsvr04.asus.com.cn:443 "GET /pub/ASUS/wireless/XG-C100C/fwupdate.zip HTTP/1.1" 200 1977950
+2022/03/17 23:38:44 - DEBUG - 122 - save - Saving File fwupdate.zip..
+2022/03/28 09:29:11 - DEBUG - 38 - create_dir - Succeed in creating directory: ../data/ASUS
+2022/03/28 09:29:11 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:29:13 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=nas&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wired-networking&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=1&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 5568
+2022/03/28 09:29:13 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:29:15 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=XG-U2008&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/28 09:29:15 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/28 09:29:15 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/28 09:29:15 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:29:16 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=XG-C100C&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 684
+2022/03/28 09:29:16 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:29:18 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=AS6604T&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/28 09:29:18 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/28 09:29:18 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/28 09:29:18 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:29:19 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=GX-U1081&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/28 09:29:19 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/28 09:29:19 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/28 09:29:19 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:29:21 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=PCE-C2500&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/28 09:29:21 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/28 09:29:21 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/28 09:29:21 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:29:22 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=AS6602T&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/28 09:29:22 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/28 09:29:22 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/28 09:29:22 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:29:24 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=GX-U1051&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/28 09:29:24 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/28 09:29:24 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/28 09:29:24 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:29:26 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=XG-C100F&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/28 09:29:26 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/28 09:29:26 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/28 09:29:26 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:29:27 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=nas&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wired-networking&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=2&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 135
+2022/03/28 09:29:27 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:29:28 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=nas&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wired-networking&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=1&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 5568
+2022/03/28 09:29:28 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:29:30 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=nas&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wired-networking&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=3&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 135
+2022/03/28 09:29:30 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:29:31 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=nas&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wired-networking&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=2&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 135
+2022/03/28 09:29:31 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:29:32 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=nas&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wired-networking&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=1&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 5568
+2022/03/28 09:29:32 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:29:33 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=XG-U2008&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/28 09:29:33 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/28 09:29:33 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/28 09:29:33 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:29:35 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=XG-C100C&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 684
+2022/03/28 09:29:35 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:29:36 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=AS6604T&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/28 09:29:36 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/28 09:29:36 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/28 09:29:36 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:29:37 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=GX-U1081&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/28 09:29:37 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/28 09:29:37 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/28 09:29:37 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:29:39 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=PCE-C2500&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/28 09:29:39 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/28 09:29:39 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/28 09:29:39 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:29:41 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=AS6602T&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/28 09:29:41 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/28 09:29:41 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/28 09:29:41 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:29:42 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=GX-U1051&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/28 09:29:42 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/28 09:29:42 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/28 09:29:42 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:29:44 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=XG-C100F&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/28 09:29:44 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/28 09:29:44 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/28 09:29:44 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:29:45 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=nas&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wired-networking&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=2&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 135
+2022/03/28 09:29:45 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:29:46 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=nas&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wired-networking&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=1&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 5568
+2022/03/28 09:29:46 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:29:48 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=nas&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wired-networking&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=3&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 135
+2022/03/28 09:29:48 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:29:49 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=nas&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wired-networking&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=2&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 135
+2022/03/28 09:29:49 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:29:50 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=nas&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wired-networking&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=1&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 5568
+2022/03/28 09:29:50 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:29:51 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=XG-U2008&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/28 09:29:51 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/28 09:29:51 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/28 09:29:51 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:29:53 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=XG-C100C&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 684
+2022/03/28 09:29:53 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:29:59 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=AS6604T&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/28 09:29:59 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/28 09:29:59 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/28 09:29:59 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:30:01 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=GX-U1081&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/28 09:30:01 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/28 09:30:01 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/28 09:30:01 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:30:02 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=PCE-C2500&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/28 09:30:02 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/28 09:30:02 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/28 09:30:02 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:30:04 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=AS6602T&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/28 09:30:04 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/28 09:30:04 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/28 09:30:04 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:30:06 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=GX-U1051&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/28 09:30:06 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/28 09:30:06 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/28 09:30:06 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:30:07 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=XG-C100F&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/28 09:30:07 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/28 09:30:07 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/28 09:30:07 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:30:09 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=nas&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wired-networking&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=2&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 135
+2022/03/28 09:30:09 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:30:10 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=nas&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wired-networking&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=1&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 5568
+2022/03/28 09:30:10 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:30:11 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=nas&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wired-networking&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=3&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 135
+2022/03/28 09:30:11 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:30:12 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=nas&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wired-networking&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=2&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 135
+2022/03/28 09:30:12 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:30:13 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=%E8%B7%AF%E7%94%B1%E5%99%A8&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=modem-routers&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=1&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 7100
+2022/03/28 09:30:13 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:30:15 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=4G-N12_B1&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 727
+2022/03/28 09:30:15 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:30:20 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=DSL-AC51&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 17019
+2022/03/28 09:30:20 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:30:21 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=4G-AC53U&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 2394
+2022/03/28 09:30:21 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:30:23 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=DSL-AC88U-B&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 5321
+2022/03/28 09:30:23 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:30:25 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=4G-AC86U&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 2970
+2022/03/28 09:30:25 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:30:26 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=4G-AC68U&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 7141
+2022/03/28 09:30:26 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:30:28 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=DSL-AC750&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 17080
+2022/03/28 09:30:28 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:30:29 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=DSL-AC55U&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 17529
+2022/03/28 09:30:29 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:30:31 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=DSL-N16&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 16690
+2022/03/28 09:30:31 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:30:32 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=DSL-AC68U&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 45645
+2022/03/28 09:30:32 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:30:34 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=%E8%B7%AF%E7%94%B1%E5%99%A8&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=modem-routers&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=2&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 3592
+2022/03/28 09:30:34 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:30:35 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=%E8%B7%AF%E7%94%B1%E5%99%A8&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=modem-routers&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=1&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 7100
+2022/03/28 09:30:35 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:30:37 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=DSL-N16P&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 2243
+2022/03/28 09:30:37 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:30:43 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=DSL-AC3100&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 8553
+2022/03/28 09:30:43 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:30:44 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=DSL-AC68VG&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 3365
+2022/03/28 09:30:44 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:30:46 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=CM-32&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/28 09:30:46 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/28 09:30:46 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/28 09:30:46 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:30:47 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=DSL-AC88U&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 12063
+2022/03/28 09:30:47 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:30:49 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=%E8%B7%AF%E7%94%B1%E5%99%A8&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=modem-routers&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=3&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 135
+2022/03/28 09:30:49 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:30:50 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=%E8%B7%AF%E7%94%B1%E5%99%A8&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=modem-routers&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=2&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 3592
+2022/03/28 09:30:50 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:30:51 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=%E8%B7%AF%E7%94%B1%E5%99%A8&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=modem-routers&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=4&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 135
+2022/03/28 09:30:51 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:30:52 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=%E8%B7%AF%E7%94%B1%E5%99%A8&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=modem-routers&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=3&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 135
+2022/03/28 09:30:52 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:30:58 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=%E8%B7%AF%E7%94%B1%E5%99%A8&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wifi-routers&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=1&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 7115
+2022/03/28 09:30:58 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:31:00 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC51U&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 5725
+2022/03/28 09:31:00 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:31:02 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC1200HP&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 2552
+2022/03/28 09:31:02 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:31:03 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC88U&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 25575
+2022/03/28 09:31:03 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:31:05 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC66U&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 7981
+2022/03/28 09:31:05 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:31:07 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC5300&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 20161
+2022/03/28 09:31:07 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:31:12 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-N12E&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 1826
+2022/03/28 09:31:12 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:31:29 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC56U&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 4593
+2022/03/28 09:31:30 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:31:31 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-N18U&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 5349
+2022/03/28 09:31:31 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:31:33 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-N12HP&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 2981
+2022/03/28 09:31:33 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:31:35 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC87U&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 10402
+2022/03/28 09:31:35 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:31:37 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=%E8%B7%AF%E7%94%B1%E5%99%A8&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wifi-routers&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=2&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 7193
+2022/03/28 09:31:37 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:31:38 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=%E8%B7%AF%E7%94%B1%E5%99%A8&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wifi-routers&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=1&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 7115
+2022/03/28 09:31:38 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:31:39 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC51&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 3646
+2022/03/28 09:31:39 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:31:41 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC750GF&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 3035
+2022/03/28 09:31:41 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:31:43 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC57U%20V2&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 4127
+2022/03/28 09:31:43 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:31:44 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC52&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 3646
+2022/03/28 09:31:44 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:31:46 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=TUF-AX3000&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 14869
+2022/03/28 09:31:46 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:31:48 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC1200G+&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 6259
+2022/03/28 09:31:48 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:31:49 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-N12%20Plus&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 6915
+2022/03/28 09:31:49 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:31:51 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC1200&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 2467
+2022/03/28 09:31:51 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:31:53 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-N12&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 2104
+2022/03/28 09:31:53 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:31:54 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC1200GU&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 4653
+2022/03/28 09:31:54 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:31:56 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=%E8%B7%AF%E7%94%B1%E5%99%A8&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wifi-routers&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=3&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 7149
+2022/03/28 09:31:56 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:31:57 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=%E8%B7%AF%E7%94%B1%E5%99%A8&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wifi-routers&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=2&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 7193
+2022/03/28 09:31:57 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:31:58 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-N14UHP&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 11430
+2022/03/28 09:31:58 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:32:00 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-ACRH18&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 2093
+2022/03/28 09:32:00 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/28 09:32:00 - ERROR - 35 - <module> - 'NoneType' object has no attribute 'split'
+2022/03/28 09:32:00 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:32:02 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC1200_V2&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 4522
+2022/03/28 09:32:02 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:32:03 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=Lyra%20Voice&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 10936
+2022/03/28 09:32:03 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:32:05 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC1900U&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 24572
+2022/03/28 09:32:05 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:32:06 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC59U&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 4027
+2022/03/28 09:32:06 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:32:08 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AX82U&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 15554
+2022/03/28 09:32:08 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:32:10 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC52U&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 4366
+2022/03/28 09:32:10 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:32:11 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC3200&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 11877
+2022/03/28 09:32:11 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:32:13 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC52U%20B1&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 6092
+2022/03/28 09:32:13 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:32:15 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=%E8%B7%AF%E7%94%B1%E5%99%A8&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wifi-routers&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=4&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 7174
+2022/03/28 09:32:15 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:32:16 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=%E8%B7%AF%E7%94%B1%E5%99%A8&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wifi-routers&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=3&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 7149
+2022/03/28 09:32:16 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:32:18 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC66U-B1&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 25463
+2022/03/28 09:32:18 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:32:20 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-N12-plus-PRO&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 4689
+2022/03/28 09:32:20 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:32:21 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-N12E-C1&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 5450
+2022/03/28 09:32:21 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:32:23 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC3200&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 11877
+2022/03/28 09:32:23 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:32:29 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC52U%20B1&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 6092
+2022/03/28 09:32:29 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:32:30 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC1900P&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 26195
+2022/03/28 09:32:30 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:32:32 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC65&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 2140
+2022/03/28 09:32:32 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:32:34 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-ACRH18&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 2093
+2022/03/28 09:32:34 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/28 09:32:34 - ERROR - 35 - <module> - 'NoneType' object has no attribute 'split'
+2022/03/28 09:32:34 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:32:35 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC86U&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 25251
+2022/03/28 09:32:35 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:32:37 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-N11P-B1&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 5483
+2022/03/28 09:32:37 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:32:39 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=%E8%B7%AF%E7%94%B1%E5%99%A8&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wifi-routers&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=5&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 7145
+2022/03/28 09:32:39 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:32:40 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=%E8%B7%AF%E7%94%B1%E5%99%A8&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wifi-routers&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=4&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 7174
+2022/03/28 09:32:40 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:32:42 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC51&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 3646
+2022/03/28 09:32:42 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:32:44 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC57U%20V2&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 4127
+2022/03/28 09:32:44 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:32:45 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AX86U%20ZAKU%20II%20EDITION&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 10602
+2022/03/28 09:32:45 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:32:47 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AX86U&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 11164
+2022/03/28 09:32:47 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:32:49 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AX88U&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 27644
+2022/03/28 09:32:49 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:32:50 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC750GF&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 3035
+2022/03/28 09:32:50 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:32:57 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AX55&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 2191
+2022/03/28 09:32:57 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:33:00 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AX82U%20GUNDAM%20EDITION&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 13847
+2022/03/28 09:33:00 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:33:01 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=BRT-AC828&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 13578
+2022/03/28 09:33:01 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:33:03 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AX56U&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 10195
+2022/03/28 09:33:03 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:33:05 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=%E8%B7%AF%E7%94%B1%E5%99%A8&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wifi-routers&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=6&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 7202
+2022/03/28 09:33:05 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:33:06 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=%E8%B7%AF%E7%94%B1%E5%99%A8&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wifi-routers&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=5&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 7145
+2022/03/28 09:33:06 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:33:07 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AX68U&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 8153
+2022/03/28 09:33:07 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:33:13 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-N14UHP&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 11430
+2022/03/28 09:33:13 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:33:15 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-N300-B1&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 5464
+2022/03/28 09:33:15 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:33:16 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC68U&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 25617
+2022/03/28 09:33:16 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:33:18 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC1200_V2&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 4522
+2022/03/28 09:33:18 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:33:19 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC57U%20V3&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 1678
+2022/03/28 09:33:19 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:33:20 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC750L&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 4414
+2022/03/28 09:33:20 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:33:22 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC58U&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 9469
+2022/03/28 09:33:22 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:33:23 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC1200-White-Housing&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 161
+2022/03/28 09:33:23 - ERROR - 34 - <module> - In File: ASUS.py
+2022/03/28 09:33:23 - ERROR - 35 - <module> - 'NoneType' object is not subscriptable
+2022/03/28 09:33:23 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:33:24 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC1500G%20PLUS&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 4032
+2022/03/28 09:33:24 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:33:26 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=%E8%B7%AF%E7%94%B1%E5%99%A8&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wifi-routers&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=7&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 7199
+2022/03/28 09:33:26 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:33:27 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=%E8%B7%AF%E7%94%B1%E5%99%A8&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wifi-routers&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=6&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 7202
+2022/03/28 09:33:27 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:33:28 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC56U&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 4593
+2022/03/28 09:33:28 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:33:30 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC5300&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 20161
+2022/03/28 09:33:30 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:33:31 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC51U&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 5725
+2022/03/28 09:33:31 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:33:33 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC88U&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 25575
+2022/03/28 09:33:33 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:33:34 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-N12%20Plus&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 6915
+2022/03/28 09:33:34 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:33:35 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC1200&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 2467
+2022/03/28 09:33:35 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:33:37 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC1200G+&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 6259
+2022/03/28 09:33:37 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:33:38 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-N12-VP-B1&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 5539
+2022/03/28 09:33:38 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:33:40 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AC87U&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 10402
+2022/03/28 09:33:40 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:33:41 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-N12HP&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 2981
+2022/03/28 09:33:41 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:33:49 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=%E8%B7%AF%E7%94%B1%E5%99%A8&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wifi-routers&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=8&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 None
+2022/03/28 09:33:49 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): odinapi.asus.com.cn:443
+2022/03/28 09:33:50 - DEBUG - 456 - _make_request - https://odinapi.asus.com.cn:443 "GET /recent-data/apiv2/SearchResult?SystemCode=asus&WebsiteCode=cn&SearchKey=%E8%B7%AF%E7%94%B1%E5%99%A8&SearchType=support&SearchPDLine=networking-iot-servers&SearchPDLine2=wifi-routers&PDLineFilter=&TopicFilter=&CateFilter=&PageSize=10&Pages=7&LocalFlag=0&siteID=www&sitelang=cn HTTP/1.1" 200 7199
+2022/03/28 09:33:50 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
+2022/03/28 09:33:51 - DEBUG - 456 - _make_request - https://www.asus.com.cn:443 "GET /support/api/product.asmx/GetPDBIOS?website=cn&model=RT-AX86U%20ZAKU%20II%20EDITION&pdhashedid=&cpu=&pdid=99999&siteID=www&sitelang=cn HTTP/1.1" 200 10602
+2022/03/28 09:33:51 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): www.asus.com.cn:443
