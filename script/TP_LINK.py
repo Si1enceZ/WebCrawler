@@ -1,6 +1,6 @@
 from core import *
 if __name__ == '__main__':
-    save_path = 'data/TP_LINK'
+    save_path = '../data/TP_LINK'
     create_dir(save_path)
 
     tem_url = 'https://service.tp-link.com.cn/download?classtip=software&p={}&o=0'

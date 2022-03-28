@@ -1,0 +1,8 @@
+.idea/
+__pycache__/
+log/
+tmp.html
+test.json
+test.py
+data/
+script/data
