@@ -1,9 +1,14 @@
 import os
 import threading
+import platform
 
 
 def run(f):
-    os.system('python script/' + f)
+    # Check OS info
+    if platform.system() == 'Windows':
+        os.system('python script/' + f)
+    elif platform.system() == 'Linux':
+        os.system('python3 script/' + f)
 
 
 if __name__ == '__main__':

@@ -5,6 +5,7 @@ from tqdm import tqdm
 import os
 import logging
 import json
+
 ua_list = [
     'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Maxthon 2.0',
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0)',
@@ -17,8 +18,11 @@ ua_list = [
     'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1',
     'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1',
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:2.0.1) Gecko/20100101 Firefox/4.0.1',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)',
+    'Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.52 '
 ]
-file_types = ['apk','pdf','exe']
+file_types = ['apk', 'pdf', 'exe']
+
 
 def create_dir(directory_name: str):
     """
@@ -29,10 +33,10 @@ def create_dir(directory_name: str):
     LOG_FORMAT = "%(asctime)s - %(levelname)s - %(lineno)d - %(funcName)s - %(message)s"
     DATE_FORMAT = "%Y/%m/%d %H:%M:%S"
     name = directory_name.split('/')[-1]
-    f = open('../log/'+name+'.log', 'a', encoding='utf-8')
+    f = open('log/' + name + '.log', 'a', encoding='utf-8')
     f.close()
 
-    logging.basicConfig(filename='../log/'+name+'.log', level=logging.DEBUG, format=LOG_FORMAT,datefmt=DATE_FORMAT)
+    logging.basicConfig(filename='log/' + name + '.log', level=logging.DEBUG, format=LOG_FORMAT, datefmt=DATE_FORMAT)
     try:
         os.makedirs(directory_name)
         logging.debug(f'Succeed in creating directory: {directory_name}')
@@ -107,11 +111,12 @@ def get_links(text: str, pattern: str):
     return find.findall(text)
 
 
-def test_save(url,path):
+def test_save(url, path):
+    tmp = {"url": url, "name": url.split('/')[-1]}
+    with open(path + '/' + path.split('/')[-1] + '.json', 'a', encoding='utf-8') as file:
+        file.write(json.dumps(tmp) + '\n')
+    logging.info("Succeed in sava file");
 
-    tmp = {"url":url,"name":url.split('/')[-1]}
-    with open(path+'/'+path.split('/')[-1] +'.json','a',encoding='utf-8') as file:
-        file.write(json.dumps(tmp)+'\n')
 
 def save(url, path):
     """
@@ -121,9 +126,9 @@ def save(url, path):
     :return: None
     """
     file_type = url.split('.')[-1]
-    if file_type in file_types:
-        return 
-    test_save(url,path)
+    if file_type in file_types or file_type is None:
+        return
+    test_save(url, path)
     # name = url.split('/')[-1]
     # if not os.path.exists(name):
     #     file_internet = get_bios(url)
@@ -133,9 +138,9 @@ def save(url, path):
     #         print(f'File {name} total size is about:', content_size, 'MB. starting save...')
     #         logging.debug(f'Saving File {name}..')
     #         try:
-    #             for data in tqdm(iterable=file_internet.iter_content(1024 * 1024), total=content_size, desc=name,
+    #             for data1 in tqdm(iterable=file_internet.iter_content(1024 * 1024), total=content_size, desc=name,
     #                          unit='MB'):
-    #                 file_local.write(data)
+    #                 file_local.write(data1)
     #             else:
     #                 logging.debug(f'Succeed in saving file {name}')
     #         except Exception as e:
@@ -166,7 +171,7 @@ def Download(links: list, pattern: str, path: str):
             logging.error(f'Can\'t find the download link in page: {link}')
 
 
-def save_page(page: requests.models.Response,encoding='utf-8'):
+def save_page(page: requests.models.Response, encoding='utf-8'):
     with open('tmp.html', 'w', encoding=encoding) as f:
         f.write(page.content.decode(encoding=encoding))
 
@@ -176,4 +181,3 @@ def test_page(url: str, encoding='utf-8', headers=None):
         headers = {}
     f = get_page(url, headers)
     save_page(f, encoding)
-
