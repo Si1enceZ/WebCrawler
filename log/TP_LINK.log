@@ -1,7 +1,0 @@
-2022/03/17 23:28:40 - DEBUG - 35 - create_dir - Succeed in creating directory: data/TP_LINK
-2022/03/17 23:28:51 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): service.tp-link.com.cn:443
-2022/03/17 23:28:53 - DEBUG - 456 - _make_request - https://service.tp-link.com.cn:443 "GET /download?classtip=software&p=1&o=0 HTTP/1.1" 200 None
-2022/03/17 23:29:09 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): service.tp-link.com.cn:443
-2022/03/17 23:29:10 - DEBUG - 456 - _make_request - https://service.tp-link.com.cn:443 "GET /detail_download_9693.html HTTP/1.1" 302 180
-2022/03/17 23:29:10 - DEBUG - 1001 - _new_conn - Starting new HTTPS connection (1): security.tp-link.com.cn:443
-2022/03/17 23:29:11 - DEBUG - 456 - _make_request - https://security.tp-link.com.cn:443 "GET /service/detail_download_9693.html HTTP/1.1" 200 2459
